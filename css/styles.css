@@ -1,0 +1,113 @@
+/** Variables
+ ---------------------------------------------------------*/
+ :root {
+    --light-grey: rgb(145,145,145);
+    --light-grey-2: rgb(198, 202, 209);
+}
+
+
+/** Global Reset
+ ---------------------------------------------------------*/
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    background-color: var(--body-bg-grey);
+}
+
+/** Universal
+ ---------------------------------------------------------*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/** CSS
+ ---------------------------------------------------------*/
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header {
+    color: var(--light-grey);
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--light-grey);
+    padding: 2rem 0;
+
+    align-self: stretch;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-container {
+    width: 100%;
+    margin-top: 5rem;
+    padding: 5rem;
+    background-color: #EEF0F1;
+}
+
+.form-title {
+    font-size: 3rem;
+}
+
+.form-label {
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.form-input {
+    align-self: stretch;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--light-grey); 
+}
+
+.btn-primary {
+    padding: 2rem 3rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(0, 124, 155);
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid var(--light-grey);
+}
+
+.sites {
+    margin-top: 8rem;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-text {
+    border-top: 1px solid var(--light-grey);
+    padding: 1rem 0;
+    align-self: stretch;
+}
