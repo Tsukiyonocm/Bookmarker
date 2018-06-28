@@ -99,6 +99,11 @@ body {
     border: 1px solid var(--light-grey);
 }
 
+a.btn-primary {
+    text-decoration: none;
+}
+
+
 .sites {
     margin-top: 8rem;
     width: 100%;
@@ -109,14 +114,12 @@ body {
     margin-bottom: 8rem;
 }
 
-
-
 .bookmark-results {
     width: 100%;
 }
 
 .bookmark {
-    background-color: var(--light-grey-2);
+    background-color: #EEF0F1;
     border-radius: .5rem;
     margin: 1rem;
     display: flex;
@@ -134,10 +137,6 @@ body {
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
-}
-
-.buttons {
-    
 }
 
 footer {

@@ -2,6 +2,7 @@
 document.getElementById("myForm").addEventListener("submit", saveBookmark);
 
 
+
 // Save Bookmark
 function saveBookmark(e){
     //Get form Values
@@ -31,12 +32,18 @@ function saveBookmark(e){
         localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
     }
 
+    console.log(siteName);
+
+
     // Re-fetch Bookmarks
     fetchBookmarks();
 
     //Prevent Form from Submitting
     e.preventDefault();
 };
+
+
+
 
 // Delete Bookmark
 function deleteBookmark(url){
@@ -57,6 +64,9 @@ function deleteBookmark(url){
     // Re-fetch Bookmarks
     fetchBookmarks();
 }
+
+
+
 
 
 // Fetch Bookmarks
@@ -85,4 +95,9 @@ function fetchBookmarks() {
             '</h3>' +
         '</div>';
     };
+
+    console.log(siteName);
+    siteName.value = "";
+    siteUrl.value = "";
+
 }
