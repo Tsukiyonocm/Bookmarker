@@ -104,6 +104,42 @@ body {
     width: 100%;
 }
 
+.results-section {
+    width: 100%;
+    margin-bottom: 8rem;
+}
+
+
+
+.bookmark-results {
+    width: 100%;
+}
+
+.bookmark {
+    background-color: var(--light-grey-2);
+    border-radius: .5rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookmark-info {
+    height: 10rem;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.buttons {
+    
+}
+
 footer {
     width: 100%;
 }

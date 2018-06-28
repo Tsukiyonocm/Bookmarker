@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     
 </head>
-<body>
+<body onload="fetchBookmarks()">
     <div class="container flex">
         <div class="header">
             <h3 class="appTitle">Bookmarker</h3>
@@ -35,7 +35,7 @@
         </div>
 
         <div class="sites flex">
-            <div>
+            <div class="results-section">
                 <div id="bookmarksResults"></div>
             </div>
 
